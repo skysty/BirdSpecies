@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jul 23 15:10:50 2020
+
 
 @author: sony
 """
@@ -81,7 +81,7 @@ test_set = test_datagen.flow_from_directory('C:/Users/sony/Desktop/Project work/
                          nb_val_samples = 2000)'''
 print(len(training_set))
 print(len(test_set))
-# fit the model
+# fit the model osy jerden oshibka shygyp jatyr
 r = model.fit_generator(
   training_set,
   validation_data=test_set,
@@ -107,4 +107,4 @@ import tensorflow as tf
 
 from keras.models import load_model
 
-model.save('facefeatures_new_model.h5')
+model.save('birds.h5')
